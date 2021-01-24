@@ -14,19 +14,17 @@
 
       <div class="cart">Cart({{ cart }})</div>
       <product-display :premium="premium"></product-display>
-      <product-display></product-display>
-      <product-display></product-display>
     </div>
 
     <!-- Import App -->
     <script src="./main.js"></script>
 
-    <!-- Import component -->
+    <!-- Import Components -->
     <script src="./components/ProductDisplay.js"></script>
 
     <!-- Mount App -->
     <script>
-      const mountedApp = app.mount("#app");
+      const mountedApp = app.mount('#app')
     </script>
   </body>
 </html>
